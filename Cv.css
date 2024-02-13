@@ -74,3 +74,45 @@ header {
 .nav_links li a:hover {
   background-color: #24caac;
 }
+
+.logo h2 a {
+  color: #fff;
+text-transform:uppercase ;
+
+}
+
+.inner_anasayfa {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 80%;
+  color: #fff;
+} 
+
+.child_anasayfa {
+  flex-basis: 45%;
+}
+
+.child_anasayfa h1 {
+  font-size:  50px;
+  color: #24caac;
+}
+
+.span_child {
+  color: #e0376f;
+
+}
+
+.child_anasayfa p {
+  font-size: 25px;
+  margin-bottom: 13px;
+}
+.photo {
+  max-width: 75%; /* Resmi ekran genişliğine sığacak şekilde ayarlar */
+  height: auto; /* Oranlar korunarak yüksekliği otomatik olarak ayarlanır */
+  display: block; /* Resmi yatay olarak hizalar */
+  margin: 0 auto; /* Resmi merkezlemek için */
+  border-radius: 40px; /* Kenarlara yuvarlaklık verir */
+  border: 2px solid black;
+}
