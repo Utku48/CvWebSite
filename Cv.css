@@ -13,7 +13,7 @@ html {
 }
 
 body {
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-family:"Montserrat", sans-serif ;
 }
 
 img {
@@ -28,7 +28,9 @@ section {
 .section {
   margin-bottom: 30px;
 }
-
+.section_title{
+  margin-bottom: 30px;
+}
 .section_title_h2 {
   position: relative;
   text-align: center;
@@ -54,7 +56,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 0 auto;
+  margin: 0 auto !important;
   width: 80%;
   padding: 10px 0;
 }
@@ -109,10 +111,100 @@ text-transform:uppercase ;
   margin-bottom: 13px;
 }
 .photo {
-  max-width: 75%; /* Resmi ekran genişliğine sığacak şekilde ayarlar */
-  height: auto; /* Oranlar korunarak yüksekliği otomatik olarak ayarlanır */
-  display: block; /* Resmi yatay olarak hizalar */
-  margin: 0 auto; /* Resmi merkezlemek için */
-  border-radius: 40px; /* Kenarlara yuvarlaklık verir */
+  max-width: 75%;
+  height: auto; 
+  display: block; 
+  margin: 0 auto; 
+  border-radius: 40px; 
   border: 2px solid black;
 }
+
+/* Portfolyo */
+.inner_portfolyo {
+  align-items: center;
+  width: 50%;
+  justify-content: space-between;
+  margin: 0 auto;
+  color: #fff;
+}
+
+a {
+  color: red; /* Bağlantı rengini kırmızı olarak ayarla */
+}
+
+.innerportfolyo_child {
+  flex-basis: 31%;
+  color: #fff;
+  padding: 25px 20px;
+  background: rgba(55, 66, 80, 0.281);
+  border-radius: 5px;
+  border: 1px solid transparent;
+  transition: all .5s ease-in-out;
+}
+
+.innerportfolyo_child h3 {
+  font-family: Arial, sans-serif; /* Yazı tipini Arial olarak ayarla */
+  font-size: 30px; /* Yazı boyutunu 30 piksel olarak ayarla */
+  color: rgb(88, 223, 11); /* Yazı rengini mavi olarak ayarla */
+}
+
+.innerportfolyo_child p {
+  font-family: Arial, sans-serif;
+  font-size: 16px; 
+  color: rgb(241, 241, 241);
+}
+
+.innerportfolyo_child:hover {
+  border: 1px solid #24caac;
+}
+
+
+
+.image-container {
+  display: flex;
+  justify-content: space-between; 
+}
+
+.image-container figure {
+  margin: 0;
+  flex: 1;
+}
+
+.image-container img {
+  margin: 1px;
+  padding: 5px;
+  height: 100%;
+}
+
+.innerportfolyo_child.mml {
+  width: 500px; 
+  height: auto; 
+}
+
+.innerportfolyo_child .custom-image {
+  width: 100%; 
+  height: auto; 
+}
+
+.twoSides  {
+  width: 225px; 
+  height: 450px; 
+}
+
+.innerportfolyo_child.image-container.idle  {
+  width: 235px; 
+  height: 350px; 
+}
+
+.innerportfolyo_child.image-container.gold  {
+  width: 235px; 
+  height: 350px; 
+}
+.image-container {
+  overflow: hidden; /* Resimlerin container'ın sınırlarını aşmasını engeller */
+  position: relative; /* Resimlerin konumunu sabit tutar */
+}
+
+
+
+
