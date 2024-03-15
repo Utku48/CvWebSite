@@ -206,5 +206,53 @@ a {
 }
 
 
+/*Sertifikalarım*/
+
+.inner_courses {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 88%;
+  margin: 0 auto;
+}
+
+.child_courses{
+  flex-basis: 24%;
+  color: #fff;
+  padding: 20px 10px 20px 10px;
+  border: 1px solid transparent;
+  transition: .3s;
+  border-radius: 5px;
+
+}
+
+.child_courses:hover {
+  border: 2px solid #24caac ;
+}
+
+#hakkımda {
+  text-align: center; /* İçeriği tam ortala */
+}
+
+#hakkımda {
+  text-align: center; /* İçeriği tam ortala */
+}
+
+#hakkımda h2 {
+  color: #fff; /* Metnin rengini değiştir */
+  font-size: 24px; /* Metin boyutunu ayarla */
+  max-width: 600px; /* Maksimum genişliği ayarla */
+  margin: 0 auto; /* Yatayda merkezle */
+  line-height: 1.5; /* Satır yüksekliğini ayarla */
+  padding: 20px; /* Kutu içeriğinin etrafına iç boşluk ekleyin */
+  border-radius: 10px; /* Köşeleri yuvarla */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* Daha belirgin bir gölge efekti ekle */
+  transition: background-color 0.3s ease; /* Geçiş efekti ekleyin */
+}
+
+#hakkımda h2:hover {
+  background-color: rgba(36, 202, 172, 0.8); /* Hover olduğunda arka plan rengini değiştir */
+}
 
 
