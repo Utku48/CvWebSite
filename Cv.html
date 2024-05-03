@@ -15,15 +15,15 @@
   </head>
   <body>
     <header>
-      <div class="navbar">
+      <div class="navbar" id="navbar">
         <div class="logo">
           <h2><a href="#">Utku Karakuyu</a></h2>
         </div>
         <ul class="nav_links">
-          <li><a href="#anaSayfa">Ana Sayfa</a></li>
+          <li><a href="#me">Ana Sayfa</a></li>
           <li><a href="#hakkımda">Hakkımda</a></li>
-          <li><a href="#portfolyo">Portfolyom</a></li>
-          <li><a href="#sertifikalar">Sertifikalarım</a></li>
+          <li><a href="#portfolyom">Portfolyom</a></li>
+          <li><a href="#sertifikalarım">Sertifikalarım</a></li>
           <li><a href="#iletisim">İletişim</a></li>
         </ul>
       </div>
@@ -40,7 +40,7 @@
           </h1>
         </div>
         <div class="child_anasayfa">
-          <img class="photo" src="/Photos/yan.jpg" alt="" />
+          <img class="photo" id="me" src="/Photos/yan.jpg" alt="" />
         </div>
       </div>
     </section>
@@ -239,9 +239,9 @@
 <!--------Sertifikalarım------->
 <section id="sertifikalarım">
   <div class="section_title">
-    <h2 class="section_title_h2">Sertifikalarım</h2>
+    <h2 class="section_title_h2">SERTİFİKALARIM</h2>
   </div>
-  <div class="inner_courses">
+  <!-- <div class="inner_courses">
     <div class="child_courses">
       <div class="course_img">
         <img src="/Photos/PanteonAkademi.jpg" alt="">
@@ -268,16 +268,38 @@
         <h3>VersiyonKontrolleri</h3>
         <p>Git-Github</p>
       </div>
-    </div>
-    <div class="child_courses">
-      <div class="course_img">
-        <img src="/Photos/B2_English-300x300.png" alt="">
+    </div> -->
+
+    <div class="card-container">
+      <div class="card">
+        <div class="card-image">
+          <img src="/Photos/PanteonAkademi.jpg" alt="">
+        </div>
+        <div class="card-content">
+          <h3 class="card-title">Panteon Akademi</h3>
+          <p>Oyun Geliştirme</p>
+        </div>
       </div>
-      <div class="detail">
-        <h3>B2</h3>
-        <p>İngilizce Sertifikası</p>
+      <div class="card">
+        <div class="card-image">
+          <img src="/Photos/UdemyOyunGeliştirme.jpg" alt="">
+        </div>
+        <div class="card-content">
+          <h3 class="card-title">Udemy Oyun Geliştirme</h3>
+          <p>Unity ile HyperCasual Oyun Geliştirme</p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-image">
+          <img src="/Photos/VersiyonKontrolleri.jpg" alt="">
+        </div>
+        <div class="card-content">
+          <h3 class="card-title">VersiyonKontrolleri</h3>
+        <p>Git-Github</p>
+        </div>
       </div>
     </div>
+
   </div>
 </section>
 
@@ -286,25 +308,21 @@
     <h2 class="section_title_h2">İletişim</h2>
   </div>
   <div class="photo_grid">
-    <div class="left_column">
       <div>
-        <img src="/Photos/Gmail_icon_(2020).svg.png" alt="">
-        <p><a href="mailto:Utku20600@gmail.com">Utku20600@gmail.com</a></p>
+        <img class="img__social" src="/Photos/Gmail_icon_(2020).svg.png" alt="">
+        <a href="mailto:Utku20600@gmail.com">Utku20600@gmail.com</a>
       </div>
       <div>
-        <img src="/Photos/linkedın.png" alt="">
-        <p><a href="https://www.linkedin.com/in/utkukarakuyu/">LinkedIn Profilim</a></p>
-      </div>
-    </div>
-    <div class="right_column">
-      <div>
-        <img src="/Photos/github.png" alt="">
-        <p><a href="https://github.com/Utku48">GitHub Profilim</a></p>
+        <img  class="img__social"src="/Photos/linkedın.png" alt="">
+        <a href="https://www.linkedin.com/in/utkukarakuyu/">LinkedIn Profilim</a>
       </div>
       <div>
-        <img src="/Photos/telefon.png" alt="">
-        <p>0552 458 5448</p>
+        <img class="img__social" src="/Photos/github.png" alt="">
+        <a href="https://github.com/Utku48">GitHub Profilim</a>
       </div>
+      <div>
+        <img class="img__social" src="/Photos/whatsapp.png" alt="">
+        <a href="#">0552 458 5448</a>
     </div>
   </div>
 </section>

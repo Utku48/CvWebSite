@@ -208,27 +208,39 @@ a {
 
 /*Sertifikalarım*/
 
-.inner_courses {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
-  width: 88%;
+
+.card-container {
+  color: #fff;
+	display: flex;
+	flex-direction: row;
+  flex-wrap: nowrap;
+   align-items:stretch;
+	justify-content: space-between;
+  gap: 4rem;
+  max-width: 1300px;
   margin: 0 auto;
 }
-
-.child_courses{
-  flex-basis: 24%;
-  color: #fff;
-  padding: 20px 10px 20px 10px;
+.card {
+	text-align: center;
   border: 1px solid transparent;
-  transition: .3s;
-  border-radius: 5px;
-
+ flex: 1;
+  align-items:stretch;
 }
 
-.child_courses:hover {
-  border: 2px solid #24caac ;
+.card:hover{
+  border: 2px solid #24caac;
+  transition: 0.3s ease;
+
+}
+.card-container > .card > .card-image > img {
+	display: block;
+	width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.card-content{
+  margin-top: 1rem;
 }
 
 #hakkımda {
@@ -254,5 +266,24 @@ a {
 #hakkımda h2:hover {
   background-color: rgba(36, 202, 172, 0.8); /* Hover olduğunda arka plan rengini değiştir */
 }
+
+.img__social{
+  height: 40px;
+  object-fit: contain;
+  cursor: pointer;
+}
+
+.photo_grid{
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.photo_grid a{
+  margin-top: 0.75rem;
+  display: block;
+  color: #fff !important;
+}
+
 
 
